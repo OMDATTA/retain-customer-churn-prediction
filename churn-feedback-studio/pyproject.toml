@@ -1,0 +1,5 @@
+[project]
+name = "churn-feedback-studio"
+version = "1.0.0"
+description = "Calibrated customer churn prediction and feedback mining"
+requires-python = ">=3.12,<3.13"
