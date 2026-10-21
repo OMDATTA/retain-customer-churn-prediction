@@ -1,0 +1,261 @@
+customer_id,tenure_months,monthly_charges,support_tickets_90d,payment_delay_count,usage_hours_week,contract_type,payment_method,signup_date,complaint_text,churn
+CUST-10000,1,57.13,2,0,17.0,Month-to-month,Bank transfer,2025-01-02,The service is reliable and the price feels fair.,
+CUST-10001,51,66.14,1,1,8.7,Month-to-month,Digital wallet,2024-02-07,Setup was easy and the team followed up with a useful explanation.,
+CUST-10002,16,78.12,1,1,1.6,Month-to-month,Direct debit,2023-03-01,Setup was easy and the team followed up with a useful explanation.,
+CUST-10003,23,76.83,1,0,19.0,Month-to-month,Bank transfer,2024-10-24,The service is reliable and the price feels fair.,
+CUST-10004,71,40.71,2,1,6.8,Month-to-month,Digital wallet,2022-08-10,The support agent was helpful and resolved my issue quickly.,
+CUST-10005,9,60.34,0,0,15.3,Two year,Digital wallet,2025-03-08,The service keeps dropping and the last ticket was closed without a fix.,
+CUST-10006,43,89.83,1,0,4.0,Two year,Card,2024-09-08,I appreciate the quick response and clear billing details.,1.0
+CUST-10007,24,83.63,1,0,7.8,One year,Direct debit,2025-07-30,I appreciate the quick response and clear billing details.,
+CUST-10008,32,54.94,1,0,9.6,Two year,Digital wallet,2024-06-04,The support agent was helpful and resolved my issue quickly.,
+CUST-10009,68,56.11,1,0,9.3,Month-to-month,Digital wallet,2026-06-14,The new plan works well and I am happy with the experience.,
+CUST-10010,15,103.36,2,0,10.7,One year,Bank transfer,2022-09-20,The service is reliable and the price feels fair.,
+CUST-10011,57,84.13,3,0,3.8,Month-to-month,Direct debit,2026-03-13,Everything has been smooth and the product is easy to use.,
+CUST-10012,54,28.49,2,1,11.3,Month-to-month,Digital wallet,2026-09-01,I appreciate the quick response and clear billing details.,
+CUST-10013,1,115.78,0,0,7.1,One year,Bank transfer,2024-07-03,I was charged an unexpected fee and have not received a clear answer.,1.0
+CUST-10014,66,83.72,3,0,9.8,Two year,Bank transfer,2023-12-12,The new plan works well and I am happy with the experience.,0.0
+CUST-10015,15,74.06,1,1,5.6,Month-to-month,Card,2025-04-23,I have contacted support twice and the issue is still unresolved.,0.0
+CUST-10016,23,56.51,1,0,10.0,One year,Card,2022-07-31,I appreciate the quick response and clear billing details.,0.0
+CUST-10017,22,42.73,1,1,0.3,Month-to-month,Bank transfer,2026-08-30,The connection is slow and support kept me waiting.,0.0
+CUST-10018,71,52.96,1,1,17.8,One year,Direct debit,2023-01-26,The support agent was helpful and resolved my issue quickly.,0.0
+CUST-10019,68,49.6,1,1,5.8,Month-to-month,Direct debit,2026-02-16,The service is reliable and the price feels fair.,0.0
+CUST-10020,22,40.99,1,0,11.0,One year,Card,2023-09-03,I appreciate the quick response and clear billing details.,0.0
+CUST-10021,30,20.86,1,0,12.6,Month-to-month,Bank transfer,2024-12-23,Setup was easy and the team followed up with a useful explanation.,0.0
+CUST-10022,47,99.76,2,1,22.6,Month-to-month,Direct debit,2024-07-26,I have contacted support twice and the issue is still unresolved.,1.0
+CUST-10023,14,98.35,0,0,7.1,Month-to-month,Direct debit,2025-02-14,The service keeps dropping and the last ticket was closed without a fix.,1.0
+CUST-10024,29,81.11,0,0,4.7,Two year,Bank transfer,2024-12-21,The renewal terms were confusing and I want to cancel.,0.0
+CUST-10025,62,70.68,0,0,0.9,Month-to-month,Card,2022-05-25,Setup was easy and the team followed up with a useful explanation.,0.0
+CUST-10026,1,53.28,0,0,9.7,Month-to-month,Digital wallet,2025-06-18,I appreciate the quick response and clear billing details.,0.0
+CUST-10027,66,57.07,1,1,14.4,Month-to-month,Digital wallet,2024-08-19,I appreciate the quick response and clear billing details.,0.0
+CUST-10028,10,66.6,1,1,12.2,One year,Direct debit,2022-12-07,I appreciate the quick response and clear billing details.,0.0
+CUST-10029,22,47.4,2,0,8.7,Month-to-month,Card,2022-06-13,The new plan works well and I am happy with the experience.,0.0
+CUST-10030,23,74.42,4,0,12.8,Two year,Bank transfer,2022-05-21,The service is reliable and the price feels fair.,0.0
+CUST-10031,26,66.67,4,0,9.1,Month-to-month,Digital wallet,2023-06-10,I appreciate the quick response and clear billing details.,0.0
+CUST-10032,33,60.24,2,1,9.9,One year,Card,2025-07-28,The service is reliable and the price feels fair.,0.0
+CUST-10033,55,71.98,2,0,1.5,Month-to-month,Card,2024-04-22,Setup was easy and the team followed up with a useful explanation.,0.0
+CUST-10034,48,69.33,3,0,17.1,One year,Direct debit,2022-09-10,I cannot justify the price after another outage.,0.0
+CUST-10035,20,90.0,4,0,12.1,One year,Direct debit,2025-11-06,The new plan works well and I am happy with the experience.,0.0
+CUST-10036,39,61.91,1,0,10.3,Month-to-month,Bank transfer,2023-01-18,Setup was easy and the team followed up with a useful explanation.,0.0
+CUST-10037,57,45.3,1,0,3.3,Month-to-month,Bank transfer,2026-08-19,Everything has been smooth and the product is easy to use.,0.0
+CUST-10038,69,75.23,2,0,10.4,Month-to-month,Digital wallet,2025-06-13,Please explain the details of my latest statement.,0.0
+CUST-10039,33,97.69,0,1,21.7,One year,Digital wallet,2024-03-28,I appreciate the quick response and clear billing details.,0.0
+CUST-10040,54,110.24,2,0,7.6,Month-to-month,Digital wallet,2022-03-21,The monthly bill is too expensive for the service I receive.,1.0
+CUST-10041,47,89.1,0,1,6.7,One year,Card,2026-09-21,Everything has been smooth and the product is easy to use.,0.0
+CUST-10042,69,39.32,2,0,15.7,One year,Direct debit,2026-03-16,The new plan works well and I am happy with the experience.,0.0
+CUST-10043,65,51.42,1,0,5.8,Month-to-month,Bank transfer,2024-05-25,I am reviewing the service options for next month.,0.0
+CUST-10044,70,33.37,0,0,9.6,Month-to-month,Direct debit,2024-11-02,I have contacted support twice and the issue is still unresolved.,0.0
+CUST-10045,3,70.89,1,1,13.5,Two year,Bank transfer,2025-11-15,I was charged an unexpected fee and have not received a clear answer.,1.0
+CUST-10046,55,64.51,3,1,6.7,One year,Card,2025-08-28,Setup was easy and the team followed up with a useful explanation.,0.0
+CUST-10047,25,45.34,7,0,10.3,Month-to-month,Digital wallet,2022-07-29,I appreciate the quick response and clear billing details.,0.0
+CUST-10048,3,104.9,1,1,9.2,Month-to-month,Direct debit,2025-12-12,I was charged an unexpected fee and have not received a clear answer.,1.0
+CUST-10049,56,89.39,0,1,10.4,Month-to-month,Card,2024-07-09,Setup was easy and the team followed up with a useful explanation.,0.0
+CUST-10050,28,60.05,1,1,13.0,Two year,Bank transfer,2024-11-10,The service is reliable and the price feels fair.,0.0
+CUST-10051,44,89.15,0,0,9.3,Month-to-month,Digital wallet,2025-12-27,Setup was easy and the team followed up with a useful explanation.,0.0
+CUST-10052,12,22.18,1,1,13.0,Month-to-month,Bank transfer,2026-10-01,I cannot justify the price after another outage.,1.0
+CUST-10053,9,79.94,2,0,7.8,Month-to-month,Card,2024-11-05,The monthly bill is too expensive for the service I receive.,1.0
+CUST-10054,54,73.34,1,2,12.3,One year,Bank transfer,2026-05-05,The support agent was helpful and resolved my issue quickly.,0.0
+CUST-10055,65,121.17,1,0,21.1,One year,Bank transfer,2026-02-26,Setup was easy and the team followed up with a useful explanation.,0.0
+CUST-10056,18,100.42,0,0,9.0,Month-to-month,Bank transfer,2023-04-25,I cannot justify the price after another outage.,1.0
+CUST-10057,70,84.69,3,1,13.9,Month-to-month,Bank transfer,2023-05-11,The support agent was helpful and resolved my issue quickly.,0.0
+CUST-10058,16,63.27,1,0,10.1,Month-to-month,Card,2022-10-14,Setup was easy and the team followed up with a useful explanation.,0.0
+CUST-10059,1,60.54,1,1,3.9,Month-to-month,Digital wallet,2023-07-31,I appreciate the quick response and clear billing details.,0.0
+CUST-10060,72,78.38,0,1,11.8,Month-to-month,Card,2024-01-20,Setup was easy and the team followed up with a useful explanation.,0.0
+CUST-10061,32,66.08,2,2,14.4,Two year,Bank transfer,2026-04-02,The connection is slow and support kept me waiting.,1.0
+CUST-10062,12,55.0,1,1,6.9,Month-to-month,Bank transfer,2024-03-11,The support agent was helpful and resolved my issue quickly.,0.0
+CUST-10063,26,100.16,0,2,19.3,One year,Bank transfer,2024-06-01,I appreciate the quick response and clear billing details.,0.0
+CUST-10064,45,59.62,0,0,11.9,One year,Digital wallet,2022-07-26,The service is reliable and the price feels fair.,0.0
+CUST-10065,65,30.3,0,0,15.1,One year,Direct debit,2025-06-26,Setup was easy and the team followed up with a useful explanation.,0.0
+CUST-10066,19,78.58,0,0,6.4,Month-to-month,Digital wallet,2026-06-10,Setup was easy and the team followed up with a useful explanation.,0.0
+CUST-10067,3,57.64,1,1,6.7,Two year,Card,2023-04-01,The service keeps dropping and the last ticket was closed without a fix.,0.0
+CUST-10068,67,74.01,2,0,8.6,Month-to-month,Bank transfer,2024-11-17,The new plan works well and I am happy with the experience.,0.0
+CUST-10069,62,89.78,1,0,8.1,Two year,Direct debit,2025-03-04,The connection is slow and support kept me waiting.,1.0
+CUST-10070,54,40.85,1,0,10.3,Month-to-month,Bank transfer,2022-07-11,Everything has been smooth and the product is easy to use.,0.0
+CUST-10071,17,27.15,2,2,9.9,Month-to-month,Digital wallet,2026-06-21,I cannot justify the price after another outage.,1.0
+CUST-10072,47,45.62,1,0,11.6,Two year,Digital wallet,2024-07-21,Everything has been smooth and the product is easy to use.,0.0
+CUST-10073,7,86.65,0,1,5.9,Month-to-month,Bank transfer,2024-03-06,I have a question about my current plan.,0.0
+CUST-10074,5,109.49,1,0,12.2,One year,Digital wallet,2025-03-22,The new plan works well and I am happy with the experience.,0.0
+CUST-10075,34,104.9,0,0,7.7,One year,Bank transfer,2023-01-03,The monthly bill is too expensive for the service I receive.,0.0
+CUST-10076,3,58.96,1,0,15.1,Month-to-month,Digital wallet,2022-09-05,The support agent was helpful and resolved my issue quickly.,0.0
+CUST-10077,22,67.79,2,0,6.2,Month-to-month,Card,2024-02-01,I appreciate the quick response and clear billing details.,0.0
+CUST-10078,4,77.95,0,0,6.8,Month-to-month,Digital wallet,2022-11-14,I cannot justify the price after another outage.,1.0
+CUST-10079,41,50.75,0,0,8.8,One year,Card,2022-04-23,Setup was easy and the team followed up with a useful explanation.,0.0
+CUST-10080,52,68.49,0,0,14.2,One year,Card,2026-02-16,I appreciate the quick response and clear billing details.,0.0
+CUST-10081,1,64.07,0,0,14.2,One year,Direct debit,2023-06-19,Everything has been smooth and the product is easy to use.,0.0
+CUST-10082,66,94.27,2,0,5.1,One year,Card,2025-06-24,Everything has been smooth and the product is easy to use.,0.0
+CUST-10083,72,58.19,2,0,11.0,Month-to-month,Card,2024-03-17,The service is reliable and the price feels fair.,0.0
+CUST-10084,55,111.52,3,0,11.0,One year,Card,2023-07-01,The support agent was helpful and resolved my issue quickly.,0.0
+CUST-10085,30,87.67,3,0,1.0,Month-to-month,Direct debit,2023-02-14,I was charged an unexpected fee and have not received a clear answer.,1.0
+CUST-10086,67,71.91,2,0,13.8,One year,Bank transfer,2026-02-25,The support agent was helpful and resolved my issue quickly.,0.0
+CUST-10087,47,30.83,1,0,6.4,One year,Card,2023-12-08,I have a question about my current plan.,0.0
+CUST-10088,33,72.97,3,1,7.4,Month-to-month,Card,2024-04-14,The service keeps dropping and the last ticket was closed without a fix.,1.0
+CUST-10089,23,70.2,2,0,18.3,Month-to-month,Card,2025-04-19,I was charged an unexpected fee and have not received a clear answer.,1.0
+CUST-10090,65,100.33,0,1,12.5,Two year,Direct debit,2024-01-15,Everything has been smooth and the product is easy to use.,0.0
+CUST-10091,58,76.99,2,1,15.6,Month-to-month,Card,2023-02-25,The new plan works well and I am happy with the experience.,1.0
+CUST-10092,6,119.14,4,1,8.4,Month-to-month,Bank transfer,2026-07-08,I was charged an unexpected fee and have not received a clear answer.,1.0
+CUST-10093,61,66.47,1,2,20.3,Month-to-month,Card,2026-06-12,I appreciate the quick response and clear billing details.,0.0
+CUST-10094,69,30.41,1,1,16.2,One year,Direct debit,2025-11-22,I am reviewing the service options for next month.,0.0
+CUST-10095,69,81.47,0,0,2.1,Month-to-month,Digital wallet,2026-06-13,The renewal terms were confusing and I want to cancel.,1.0
+CUST-10096,23,37.52,0,0,11.1,Month-to-month,Card,2024-01-09,Setup was easy and the team followed up with a useful explanation.,0.0
+CUST-10097,45,70.99,1,0,1.6,One year,Card,2022-09-18,Everything has been smooth and the product is easy to use.,0.0
+CUST-10098,6,52.28,1,0,15.1,Two year,Direct debit,2024-01-30,The renewal terms were confusing and I want to cancel.,1.0
+CUST-10099,13,95.42,2,0,20.2,Month-to-month,Digital wallet,2024-09-14,I cannot justify the price after another outage.,1.0
+CUST-10100,40,48.37,1,0,11.5,Two year,Card,2023-01-05,Everything has been smooth and the product is easy to use.,0.0
+CUST-10101,11,86.79,1,1,8.3,Month-to-month,Digital wallet,2023-07-16,I appreciate the quick response and clear billing details.,0.0
+CUST-10102,44,28.91,0,1,6.0,Month-to-month,Card,2024-12-18,The connection is slow and support kept me waiting.,1.0
+CUST-10103,5,91.98,0,1,13.5,Month-to-month,Card,2024-10-24,Payment failed again and the billing process is frustrating.,1.0
+CUST-10104,13,42.43,3,0,11.8,Month-to-month,Digital wallet,2026-01-19,Everything has been smooth and the product is easy to use.,0.0
+CUST-10105,47,75.65,0,1,0.2,Two year,Bank transfer,2026-01-21,The support agent was helpful and resolved my issue quickly.,0.0
+CUST-10106,8,93.96,1,1,0.2,Month-to-month,Card,2023-10-08,The monthly bill is too expensive for the service I receive.,0.0
+CUST-10107,67,57.95,2,0,7.4,One year,Card,2023-12-21,I appreciate the quick response and clear billing details.,0.0
+CUST-10108,44,66.13,0,0,2.6,Month-to-month,Card,2023-03-31,The support agent was helpful and resolved my issue quickly.,0.0
+CUST-10109,2,98.62,0,1,17.8,Month-to-month,Digital wallet,2022-04-04,I was charged an unexpected fee and have not received a clear answer.,1.0
+CUST-10110,40,72.25,1,0,15.5,Month-to-month,Bank transfer,2023-06-20,The service keeps dropping and the last ticket was closed without a fix.,0.0
+CUST-10111,33,71.08,1,0,6.7,Month-to-month,Bank transfer,2026-08-11,The renewal terms were confusing and I want to cancel.,1.0
+CUST-10112,16,99.03,0,2,12.2,Month-to-month,Card,2023-05-08,The connection is slow and support kept me waiting.,1.0
+CUST-10113,66,80.61,4,0,7.6,Month-to-month,Card,2025-01-12,I have contacted support twice and the issue is still unresolved.,0.0
+CUST-10114,52,67.05,2,0,10.5,Month-to-month,Bank transfer,2023-04-21,The new plan works well and I am happy with the experience.,0.0
+CUST-10115,57,77.42,0,0,3.7,One year,Card,2025-08-19,The service is reliable and the price feels fair.,0.0
+CUST-10116,23,19.25,0,0,12.6,Two year,Digital wallet,2024-10-09,Setup was easy and the team followed up with a useful explanation.,0.0
+CUST-10117,7,18.0,1,1,13.4,Two year,Card,2024-08-29,The connection is slow and support kept me waiting.,0.0
+CUST-10118,46,45.93,0,0,11.5,One year,Card,2025-08-11,The connection is slow and support kept me waiting.,0.0
+CUST-10119,40,80.34,1,1,11.7,One year,Bank transfer,2024-06-09,The support agent was helpful and resolved my issue quickly.,0.0
+CUST-10120,32,47.45,0,1,6.5,One year,Bank transfer,2023-07-10,Setup was easy and the team followed up with a useful explanation.,0.0
+CUST-10121,72,55.45,1,0,15.4,Month-to-month,Card,2025-04-22,The service keeps dropping and the last ticket was closed without a fix.,0.0
+CUST-10122,12,74.96,0,0,2.7,Two year,Digital wallet,2024-01-22,The service is reliable and the price feels fair.,0.0
+CUST-10123,29,84.55,1,1,4.2,Month-to-month,Card,2025-11-16,The service is reliable and the price feels fair.,0.0
+CUST-10124,56,83.09,0,3,15.2,Month-to-month,Card,2024-07-10,Payment failed again and the billing process is frustrating.,1.0
+CUST-10125,50,55.28,0,0,12.0,Month-to-month,Card,2023-10-02,I appreciate the quick response and clear billing details.,0.0
+CUST-10126,66,80.44,1,2,9.4,One year,Card,2023-01-22,The service keeps dropping and the last ticket was closed without a fix.,1.0
+CUST-10127,22,64.35,1,0,12.1,Month-to-month,Bank transfer,2024-10-06,The service keeps dropping and the last ticket was closed without a fix.,0.0
+CUST-10128,13,71.65,2,2,13.2,One year,Bank transfer,2025-11-02,Setup was easy and the team followed up with a useful explanation.,0.0
+CUST-10129,33,96.03,1,1,12.0,Month-to-month,Direct debit,2024-03-01,I was charged an unexpected fee and have not received a clear answer.,1.0
+CUST-10130,33,127.3,0,0,9.9,Month-to-month,Card,2022-07-16,I cannot justify the price after another outage.,1.0
+CUST-10131,4,27.56,2,0,11.6,Month-to-month,Direct debit,2023-12-14,The renewal terms were confusing and I want to cancel.,0.0
+CUST-10132,8,53.4,2,1,14.0,One year,Digital wallet,2024-02-05,I cannot justify the price after another outage.,0.0
+CUST-10133,45,32.16,1,0,11.4,Month-to-month,Digital wallet,2022-07-04,The new plan works well and I am happy with the experience.,0.0
+CUST-10134,12,42.92,0,1,13.9,Month-to-month,Digital wallet,2026-06-05,The renewal terms were confusing and I want to cancel.,0.0
+CUST-10135,54,98.76,2,1,0.2,Month-to-month,Digital wallet,2022-12-18,I have contacted support twice and the issue is still unresolved.,1.0
+CUST-10136,38,130.42,0,1,6.9,Month-to-month,Card,2024-09-03,The renewal terms were confusing and I want to cancel.,1.0
+CUST-10137,30,92.42,0,2,11.3,Month-to-month,Bank transfer,2026-03-31,The service keeps dropping and the last ticket was closed without a fix.,1.0
+CUST-10138,24,55.6,2,1,9.9,Month-to-month,Digital wallet,2025-08-23,The support agent was helpful and resolved my issue quickly.,0.0
+CUST-10139,10,31.29,0,1,15.4,Month-to-month,Direct debit,2024-01-14,I appreciate the quick response and clear billing details.,0.0
+CUST-10140,6,23.69,1,0,20.7,Month-to-month,Direct debit,2022-09-26,The service keeps dropping and the last ticket was closed without a fix.,0.0
+CUST-10141,45,96.25,0,1,8.6,Two year,Digital wallet,2026-07-14,The connection is slow and support kept me waiting.,1.0
+CUST-10142,63,90.55,0,0,8.3,Month-to-month,Direct debit,2025-02-03,The support agent was helpful and resolved my issue quickly.,0.0
+CUST-10143,55,61.68,2,0,8.4,Two year,Card,2025-05-20,Everything has been smooth and the product is easy to use.,0.0
+CUST-10144,38,98.04,0,0,5.0,Month-to-month,Digital wallet,2024-10-10,The renewal terms were confusing and I want to cancel.,1.0
+CUST-10145,41,84.18,2,0,12.6,One year,Digital wallet,2026-03-19,Setup was easy and the team followed up with a useful explanation.,0.0
+CUST-10146,56,94.95,0,0,1.7,Two year,Direct debit,2024-06-26,The service is reliable and the price feels fair.,0.0
+CUST-10147,44,60.6,1,0,6.6,One year,Card,2026-09-13,Please explain the details of my latest statement.,0.0
+CUST-10148,13,101.67,4,0,3.4,Month-to-month,Card,2023-10-15,The monthly bill is too expensive for the service I receive.,1.0
+CUST-10149,53,36.07,0,0,4.6,Two year,Card,2024-04-22,The support agent was helpful and resolved my issue quickly.,0.0
+CUST-10150,15,77.92,0,0,12.6,Month-to-month,Bank transfer,2023-09-22,Everything has been smooth and the product is easy to use.,0.0
+CUST-10151,17,103.45,1,2,18.1,Month-to-month,Digital wallet,2025-10-27,I have contacted support twice and the issue is still unresolved.,1.0
+CUST-10152,3,60.74,1,1,5.5,Month-to-month,Card,2024-04-23,I have a question about my current plan.,0.0
+CUST-10153,48,78.42,2,0,8.3,Month-to-month,Bank transfer,2026-02-10,The monthly bill is too expensive for the service I receive.,1.0
+CUST-10154,45,74.62,3,1,16.9,One year,Digital wallet,2025-09-18,The service keeps dropping and the last ticket was closed without a fix.,1.0
+CUST-10155,38,62.86,1,0,10.8,One year,Bank transfer,2024-03-10,Payment failed again and the billing process is frustrating.,0.0
+CUST-10156,60,52.09,0,0,12.9,Month-to-month,Card,2026-04-12,Everything has been smooth and the product is easy to use.,0.0
+CUST-10157,41,45.96,0,1,7.5,Month-to-month,Bank transfer,2024-12-06,The new plan works well and I am happy with the experience.,0.0
+CUST-10158,66,66.18,2,0,15.4,One year,Digital wallet,2022-03-29,The service is reliable and the price feels fair.,0.0
+CUST-10159,38,125.18,2,0,4.8,One year,Card,2026-03-14,Payment failed again and the billing process is frustrating.,1.0
+CUST-10160,60,59.87,4,3,11.0,Two year,Direct debit,2025-05-25,The monthly bill is too expensive for the service I receive.,1.0
+CUST-10161,51,60.17,3,0,17.4,Month-to-month,Bank transfer,2025-11-24,I cannot justify the price after another outage.,0.0
+CUST-10162,34,95.75,1,1,9.5,Month-to-month,Card,2024-04-06,The new plan works well and I am happy with the experience.,0.0
+CUST-10163,17,18.0,0,0,15.9,Month-to-month,Digital wallet,2023-01-04,I appreciate the quick response and clear billing details.,0.0
+CUST-10164,69,44.52,1,0,10.4,One year,Bank transfer,2025-10-30,Everything has been smooth and the product is easy to use.,0.0
+CUST-10165,68,56.01,0,0,1.5,One year,Bank transfer,2023-11-12,The service is reliable and the price feels fair.,0.0
+CUST-10166,44,71.64,0,0,1.6,One year,Digital wallet,2023-02-03,I appreciate the quick response and clear billing details.,0.0
+CUST-10167,37,55.1,1,1,10.1,One year,Direct debit,2023-01-30,The service is reliable and the price feels fair.,0.0
+CUST-10168,21,61.62,2,1,11.0,One year,Bank transfer,2023-08-24,The support agent was helpful and resolved my issue quickly.,0.0
+CUST-10169,54,52.19,1,0,14.8,One year,Digital wallet,2024-02-17,The new plan works well and I am happy with the experience.,0.0
+CUST-10170,13,56.93,1,1,13.4,Two year,Direct debit,2024-06-15,The new plan works well and I am happy with the experience.,0.0
+CUST-10171,62,69.0,1,1,14.6,Month-to-month,Bank transfer,2025-02-09,Setup was easy and the team followed up with a useful explanation.,0.0
+CUST-10172,57,39.7,1,0,8.6,One year,Card,2026-04-29,The connection is slow and support kept me waiting.,0.0
+CUST-10173,3,108.71,1,2,7.7,Month-to-month,Bank transfer,2023-04-27,I appreciate the quick response and clear billing details.,0.0
+CUST-10174,7,21.44,0,0,11.3,Month-to-month,Bank transfer,2024-12-24,The service is reliable and the price feels fair.,0.0
+CUST-10175,71,88.18,3,0,10.2,One year,Card,2026-04-17,The new plan works well and I am happy with the experience.,1.0
+CUST-10176,28,87.4,0,2,9.0,One year,Bank transfer,2022-07-20,The support agent was helpful and resolved my issue quickly.,0.0
+CUST-10177,1,69.83,0,0,4.2,Month-to-month,Digital wallet,2026-02-26,Payment failed again and the billing process is frustrating.,1.0
+CUST-10178,38,83.76,2,0,3.6,One year,Digital wallet,2024-10-21,The connection is slow and support kept me waiting.,1.0
+CUST-10179,47,33.85,1,0,0.2,Month-to-month,Card,2026-04-21,I appreciate the quick response and clear billing details.,0.0
+CUST-10180,52,90.52,0,0,8.7,One year,Bank transfer,2025-01-02,The new plan works well and I am happy with the experience.,0.0
+CUST-10181,20,71.11,1,1,2.6,Month-to-month,Digital wallet,2023-11-23,The support agent was helpful and resolved my issue quickly.,0.0
+CUST-10182,11,80.62,3,0,11.6,Two year,Digital wallet,2022-10-29,Everything has been smooth and the product is easy to use.,0.0
+CUST-10183,49,89.55,2,0,17.4,Two year,Card,2025-06-13,I appreciate the quick response and clear billing details.,0.0
+CUST-10184,49,85.15,0,1,12.5,One year,Bank transfer,2025-07-21,The new plan works well and I am happy with the experience.,0.0
+CUST-10185,71,101.62,0,0,1.4,Month-to-month,Direct debit,2024-05-17,The service is reliable and the price feels fair.,0.0
+CUST-10186,41,79.21,2,0,7.5,One year,Digital wallet,2022-10-20,The new plan works well and I am happy with the experience.,0.0
+CUST-10187,14,100.29,3,3,17.9,Month-to-month,Bank transfer,2026-02-03,Please explain the details of my latest statement.,1.0
+CUST-10188,11,45.53,1,0,12.7,One year,Card,2025-10-26,The service is reliable and the price feels fair.,0.0
+CUST-10189,72,92.59,1,0,7.6,Month-to-month,Bank transfer,2025-10-06,The renewal terms were confusing and I want to cancel.,0.0
+CUST-10190,12,28.27,1,1,21.2,Two year,Bank transfer,2025-09-23,Setup was easy and the team followed up with a useful explanation.,0.0
+CUST-10191,57,55.11,1,0,9.2,Month-to-month,Card,2022-12-20,Setup was easy and the team followed up with a useful explanation.,1.0
+CUST-10192,16,18.0,1,0,8.1,Two year,Direct debit,2025-03-22,The support agent was helpful and resolved my issue quickly.,0.0
+CUST-10193,28,67.21,0,1,16.8,Month-to-month,Digital wallet,2024-02-06,The new plan works well and I am happy with the experience.,0.0
+CUST-10194,53,106.18,0,2,14.5,Two year,Digital wallet,2025-12-06,Setup was easy and the team followed up with a useful explanation.,0.0
+CUST-10195,62,24.77,0,0,6.7,Month-to-month,Direct debit,2025-08-01,Setup was easy and the team followed up with a useful explanation.,0.0
+CUST-10196,9,49.65,3,0,11.8,Month-to-month,Bank transfer,2022-07-06,The service is reliable and the price feels fair.,0.0
+CUST-10197,16,56.99,0,0,9.6,Two year,Card,2026-04-16,I appreciate the quick response and clear billing details.,0.0
+CUST-10198,2,47.38,2,1,1.7,Month-to-month,Digital wallet,2025-07-07,The renewal terms were confusing and I want to cancel.,1.0
+CUST-10199,37,102.93,0,0,11.7,One year,Bank transfer,2024-11-03,Setup was easy and the team followed up with a useful explanation.,0.0
+CUST-10200,39,38.22,1,0,8.5,Two year,Card,2022-02-25,The support agent was helpful and resolved my issue quickly.,0.0
+CUST-10201,34,120.7,1,0,13.7,Month-to-month,Card,2024-04-12,The monthly bill is too expensive for the service I receive.,1.0
+CUST-10202,58,98.38,2,0,16.8,One year,Card,2022-09-25,The service is reliable and the price feels fair.,0.0
+CUST-10203,18,61.06,1,1,12.1,Month-to-month,Direct debit,2022-11-04,The monthly bill is too expensive for the service I receive.,0.0
+CUST-10204,53,106.53,0,0,4.7,One year,Card,2022-10-13,The new plan works well and I am happy with the experience.,0.0
+CUST-10205,71,75.05,2,0,15.9,One year,Bank transfer,2025-12-17,The new plan works well and I am happy with the experience.,0.0
+CUST-10206,33,57.26,1,0,4.3,Month-to-month,Card,2024-05-03,I cannot justify the price after another outage.,1.0
+CUST-10207,52,69.87,3,0,6.5,Month-to-month,Direct debit,2022-06-26,The service is reliable and the price feels fair.,0.0
+CUST-10208,13,93.64,2,2,10.9,One year,Bank transfer,2024-09-28,Please explain the details of my latest statement.,1.0
+CUST-10209,64,67.86,0,1,12.8,Month-to-month,Direct debit,2024-11-17,The new plan works well and I am happy with the experience.,0.0
+CUST-10210,21,63.61,0,0,0.2,One year,Card,2026-05-27,The new plan works well and I am happy with the experience.,0.0
+CUST-10211,33,63.31,1,0,7.0,Month-to-month,Card,2024-04-19,The new plan works well and I am happy with the experience.,0.0
+CUST-10212,46,48.87,1,0,1.5,Month-to-month,Digital wallet,2025-01-09,The support agent was helpful and resolved my issue quickly.,0.0
+CUST-10213,54,80.74,0,1,12.6,One year,Digital wallet,2023-04-18,The service is reliable and the price feels fair.,0.0
+CUST-10214,65,71.06,0,1,11.9,One year,Card,2023-06-08,Please explain the details of my latest statement.,0.0
+CUST-10215,41,45.53,3,0,11.2,Month-to-month,Card,2022-03-28,The renewal terms were confusing and I want to cancel.,0.0
+CUST-10216,46,58.79,0,1,7.8,Month-to-month,Digital wallet,2026-03-30,The connection is slow and support kept me waiting.,0.0
+CUST-10217,58,65.13,1,0,3.9,Two year,Bank transfer,2026-07-02,Everything has been smooth and the product is easy to use.,0.0
+CUST-10218,53,34.03,1,1,5.0,Month-to-month,Digital wallet,2026-04-10,I appreciate the quick response and clear billing details.,0.0
+CUST-10219,40,73.76,1,0,11.1,One year,Card,2022-11-22,I have a question about my current plan.,0.0
+CUST-10220,65,52.0,0,0,6.3,Two year,Digital wallet,2023-03-03,The connection is slow and support kept me waiting.,0.0
+CUST-10221,21,81.47,1,0,16.1,Month-to-month,Card,2023-04-05,I appreciate the quick response and clear billing details.,0.0
+CUST-10222,7,52.19,1,0,17.5,Month-to-month,Direct debit,2025-08-15,The new plan works well and I am happy with the experience.,0.0
+CUST-10223,17,74.29,1,0,4.2,One year,Card,2026-07-12,The connection is slow and support kept me waiting.,1.0
+CUST-10224,47,65.93,1,1,10.9,Two year,Bank transfer,2026-07-17,I appreciate the quick response and clear billing details.,0.0
+CUST-10225,15,69.38,2,0,10.7,Month-to-month,Card,2025-11-20,I have a question about my current plan.,0.0
+CUST-10226,22,74.9,1,1,9.0,Two year,Card,2023-01-05,Setup was easy and the team followed up with a useful explanation.,0.0
+CUST-10227,46,94.11,1,0,10.1,Two year,Bank transfer,2026-04-22,The new plan works well and I am happy with the experience.,0.0
+CUST-10228,52,83.66,0,2,5.4,Month-to-month,Card,2023-10-05,Setup was easy and the team followed up with a useful explanation.,0.0
+CUST-10229,4,59.7,0,0,12.4,Month-to-month,Card,2025-03-24,Everything has been smooth and the product is easy to use.,0.0
+CUST-10230,64,47.63,0,0,3.4,Month-to-month,Direct debit,2025-12-28,Everything has been smooth and the product is easy to use.,0.0
+CUST-10231,40,113.2,2,1,14.0,One year,Direct debit,2026-08-28,The monthly bill is too expensive for the service I receive.,1.0
+CUST-10232,32,61.15,0,0,7.9,Two year,Bank transfer,2025-12-07,Everything has been smooth and the product is easy to use.,0.0
+CUST-10233,16,58.51,0,0,10.5,One year,Direct debit,2022-03-25,The support agent was helpful and resolved my issue quickly.,0.0
+CUST-10234,70,37.35,1,0,20.8,Month-to-month,Bank transfer,2023-04-07,Setup was easy and the team followed up with a useful explanation.,0.0
+CUST-10235,33,59.8,2,0,10.4,One year,Bank transfer,2024-06-21,The connection is slow and support kept me waiting.,1.0
+CUST-10236,58,24.03,2,0,7.7,Month-to-month,Bank transfer,2025-07-20,The new plan works well and I am happy with the experience.,0.0
+CUST-10237,49,58.45,2,1,9.3,One year,Digital wallet,2024-12-07,The service is reliable and the price feels fair.,0.0
+CUST-10238,56,78.13,0,0,13.4,Month-to-month,Card,2025-10-15,Everything has been smooth and the product is easy to use.,0.0
+CUST-10239,59,60.13,0,1,0.2,One year,Card,2025-04-19,Everything has been smooth and the product is easy to use.,0.0
+CUST-10240,24,116.86,3,1,6.4,Month-to-month,Direct debit,2022-11-15,The new plan works well and I am happy with the experience.,0.0
+CUST-10241,3,82.81,0,0,13.9,One year,Card,2024-01-07,The service is reliable and the price feels fair.,0.0
+CUST-10242,72,106.39,0,2,0.3,One year,Digital wallet,2022-05-28,The support agent was helpful and resolved my issue quickly.,0.0
+CUST-10243,43,44.11,1,1,8.6,Month-to-month,Card,2025-09-27,I cannot justify the price after another outage.,0.0
+CUST-10244,31,38.7,2,0,10.6,Month-to-month,Card,2023-11-22,The service is reliable and the price feels fair.,0.0
+CUST-10245,42,42.14,2,1,4.1,Month-to-month,Bank transfer,2023-11-10,I was charged an unexpected fee and have not received a clear answer.,1.0
+CUST-10246,62,81.03,1,0,8.7,Month-to-month,Card,2023-08-10,I appreciate the quick response and clear billing details.,0.0
+CUST-10247,26,33.99,2,1,9.2,One year,Card,2023-10-24,The support agent was helpful and resolved my issue quickly.,0.0
+CUST-10248,5,74.1,2,1,19.8,Month-to-month,Direct debit,2024-07-23,The service is reliable and the price feels fair.,0.0
+CUST-10249,58,60.19,4,1,9.8,Month-to-month,Direct debit,2023-02-15,I appreciate the quick response and clear billing details.,0.0
+CUST-10250,61,92.26,1,1,8.4,One year,Card,2025-07-10,The support agent was helpful and resolved my issue quickly.,0.0
+CUST-10251,43,52.18,1,1,8.9,Month-to-month,Direct debit,2026-06-29,The service keeps dropping and the last ticket was closed without a fix.,0.0
+CUST-10252,64,57.11,1,1,6.4,Month-to-month,Bank transfer,2026-07-23,Everything has been smooth and the product is easy to use.,0.0
+CUST-10253,65,89.84,1,0,15.6,Month-to-month,Bank transfer,2023-04-22,Everything has been smooth and the product is easy to use.,0.0
+CUST-10254,1,25.91,2,0,8.0,One year,Digital wallet,2022-04-07,The new plan works well and I am happy with the experience.,0.0
+CUST-10255,1,77.82,1,0,16.5,Month-to-month,Digital wallet,2023-04-14,I have contacted support twice and the issue is still unresolved.,1.0
+CUST-10256,49,71.52,0,1,6.5,Two year,Bank transfer,2024-03-15,Payment failed again and the billing process is frustrating.,0.0
+CUST-10257,65,59.64,1,2,6.5,One year,Direct debit,2022-12-14,Everything has been smooth and the product is easy to use.,0.0
+CUST-10258,66,63.34,1,0,11.7,Month-to-month,Card,2025-09-03,Everything has been smooth and the product is easy to use.,0.0
+CUST-10259,27,93.02,1,0,11.8,Month-to-month,Direct debit,2022-08-31,The support agent was helpful and resolved my issue quickly.,0.0

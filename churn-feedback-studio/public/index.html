@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f7f2">
+  <meta name="description" content="Customer churn prediction, feedback mining and retention action intelligence.">
+  <title>Retain — Churn & Feedback Intelligence</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script defer src="/app.js"></script>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="/" aria-label="Retain home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 40 40" fill="none"><path d="M20 4 33.5 11.8V28L20 36 6.5 28V11.8L20 4Z" stroke="currentColor" stroke-width="1.8"/><path d="M13 15.2c0-2.3 3-4.2 7-4.2s7 1.9 7 4.2-3 4.2-7 4.2-7-1.9-7-4.2Z" fill="currentColor" opacity=".9"/><path d="M13 15.2v9.4c0 2.3 3 4.2 7 4.2s7-1.9 7-4.2v-9.4M13 20c0 2.3 3 4.2 7 4.2s7-1.9 7-4.2" stroke="currentColor" stroke-width="1.6"/><path d="m20 10-2.4-3M20 10l2.4-3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </span>
+        <span class="brand-word">retain<span>.</span><small>customer intelligence</small></span>
+      </a>
+      <nav class="topnav" aria-label="Primary navigation">
+        <a href="#overview" class="nav-link active">Overview</a>
+        <a href="#feedback" class="nav-link">Feedback mining</a>
+        <a href="#customers" class="nav-link">Customers</a>
+        <a href="#retention" class="nav-link">Retention actions</a>
+      </nav>
+      <span class="env-pill"><span class="status-dot"></span> ANALYTICS WORKSPACE</span>
+    </header>
+
+    <main>
+      <section class="hero" id="overview">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="eyebrow-line"></span> CHURN PREDICTION + FEEDBACK MINING</div>
+          <h1>Know who's at risk.<br><em>Understand why.</em></h1>
+          <p>Bring customer signals together to spot churn risk, surface complaint themes, and focus retention teams on the next best action.</p>
+          <div class="hero-meta"><span><b>01</b> Calibrated risk</span><span><b>02</b> Feedback signals</span><span><b>03</b> Action ranking</span></div>
+        </div>
+        <div class="hero-aside">
+          <div class="signal-card">
+            <div class="signal-head"><span class="signal-icon">↗</span><span>THE RETENTION LOOP</span></div>
+            <div class="loop-step"><span>01</span><div><b>Predict</b><small>Estimate churn probability</small></div><i>↗</i></div>
+            <div class="loop-connector"></div>
+            <div class="loop-step"><span>02</span><div><b>Listen</b><small>Mine written feedback</small></div><i>⌕</i></div>
+            <div class="loop-connector"></div>
+            <div class="loop-step"><span>03</span><div><b>Act</b><small>Prioritise interventions</small></div><i>✓</i></div>
+          </div>
+          <div class="hero-stamp"><span class="stamp-dot"></span> DESIGNED FOR DECISION SUPPORT</div>
+        </div>
+      </section>
+
+      <section class="workbench-grid">
+        <aside class="panel upload-panel">
+          <div class="panel-heading">
+            <div><div class="section-kicker">DATA SOURCE</div><h2>Start an analysis</h2></div>
+            <span class="step-label">STEP 01</span>
+          </div>
+          <p class="panel-copy">Use historical customer data with a binary churn label. You can also include rows with blank labels to score customers not yet observed to churn.</p>
+          <label class="dropzone" id="dropzone" for="csvFile">
+            <span class="upload-icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M16 21V5m0 0-6 6m6-6 6 6M6 19v7a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            <strong id="fileTitle">Drop your customer CSV here</strong>
+            <span id="fileSubtitle">or click to browse · CSV only</span>
+            <span class="file-limit">UP TO 3 MiB · 2,500 ROWS · 80 COLUMNS</span>
+            <input id="csvFile" type="file" accept=".csv,text/csv" hidden>
+          </label>
+          <a class="sample-link" href="/sample-churn-data.csv" download><span>↓</span> Download sample dataset</a>
+          <button class="btn btn-secondary btn-wide" id="demoButton" type="button"><span class="btn-play">▶</span> Try the synthetic demo</button>
+
+          <div class="divider"><span>DATA CONFIGURATION</span></div>
+          <div class="form-grid">
+            <label class="field"><span>Churn target <b>*</b></span><select id="targetColumn" disabled><option value="">Upload a CSV first</option></select><small>Must have two labels, such as 0/1 or Yes/No.</small></label>
+            <label class="field"><span>Complaint / feedback text</span><select id="textColumn" disabled><option value="">No feedback column</option></select><small>Used for sentiment, topics and text features.</small></label>
+            <label class="field"><span>Customer ID</span><select id="idColumn" disabled><option value="">Generate row IDs</option></select></label>
+            <label class="field"><span>Signup / join date</span><select id="dateColumn" disabled><option value="">Auto-detect / none</option></select></label>
+          </div>
+          <button class="btn btn-primary btn-wide" id="analyzeButton" type="button" disabled><span>Run churn analysis</span><span aria-hidden="true">↗</span></button>
+          <div id="uploadMessage" class="message" role="status" aria-live="polite"></div>
+          <div class="privacy-note"><span class="lock-icon">⌑</span><span><b>Data handling</b><br>Uploads are processed for this request; this prototype does not save customer files to an app database. Avoid sensitive production data until your privacy review is complete.</span></div>
+        </aside>
+
+        <div class="right-workspace">
+          <section class="panel methodology-panel">
+            <div class="method-title"><div><div class="section-kicker">HOW THE ENGINE WORKS</div><h2>From signals to a retention queue</h2></div><span class="status-tag"><span class="status-dot"></span> MODEL PIPELINE</span></div>
+            <div class="method-flow">
+              <div class="method-item"><span class="method-number">01</span><div><b>Train & calibrate</b><small>Logistic regression · sigmoid probability calibration</small></div></div>
+              <span class="flow-arrow">→</span>
+              <div class="method-item"><span class="method-number">02</span><div><b>Validate unseen rows</b><small>Stratified holdout · ROC AUC · Brier · ECE</small></div></div>
+              <span class="flow-arrow">→</span>
+              <div class="method-item"><span class="method-number">03</span><div><b>Mine & prioritise</b><small>Sentiment · NMF topics · cohort & segments</small></div></div>
+            </div>
+          </section>
+
+          <section class="empty-state panel" id="emptyState">
+            <div class="empty-illustration" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit-center"><svg viewBox="0 0 64 64" fill="none"><path d="M12 14h40v28H12z" stroke="currentColor" stroke-width="1.7"/><path d="m17 36 10-10 8 6 9-12 6 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M21 50h22m-11-8v8" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></div></div>
+            <div class="section-kicker">YOUR WORKSPACE IS READY</div>
+            <h2>Make the first signal count.</h2>
+            <p>Load the sample to explore a full analysis, or bring a customer CSV to calculate calibrated churn risk and mine the feedback behind it.</p>
+            <button class="btn btn-primary" type="button" id="emptyDemoButton">Explore sample analysis <span>↗</span></button>
+            <div class="empty-foot"><span>NO ACCOUNT REQUIRED</span><span>•</span><span>CSV IN, INSIGHTS OUT</span></div>
+          </section>
+
+          <div id="resultsArea" class="results-area hidden">
+            <section class="section-block" aria-labelledby="snapshotHeading">
+              <div class="section-title-row"><div><div class="section-kicker">EXECUTIVE SNAPSHOT</div><h2 id="snapshotHeading">Customer health at a glance</h2></div><span class="data-badge" id="sourceBadge">ANALYSIS RESULTS</span></div>
+              <div class="kpi-grid" id="kpiGrid"></div>
+            </section>
+
+            <section class="panel model-panel" id="modelPerformance">
+              <div class="panel-heading"><div><div class="section-kicker">MODEL PERFORMANCE</div><h2>How it performs on unseen customers</h2></div><span class="step-label">HOLDOUT SET</span></div>
+              <p class="muted-intro">These metrics are computed on a stratified test split not used to fit the evaluation model. Better calibration means the probabilities more closely match observed frequencies.</p>
+              <div class="model-metric-grid" id="modelMetricGrid"></div>
+              <div class="model-table-wrap"><table class="data-table compact"><thead><tr><th>Model</th><th>ROC AUC</th><th>Average precision</th><th>Recall</th><th>F1</th><th>Brier ↓</th><th>Calibration</th></tr></thead><tbody id="modelComparisonBody"></tbody></table></div>
+              <div class="chart-note"><span class="note-dot"></span> Logistic Regression uses sigmoid calibration. The Random Forest comparator uses raw, uncalibrated probabilities.</div>
+            </section>
+
+            <section class="content-grid" id="feedback">
+              <article class="panel chart-panel">
+                <div class="panel-heading"><div><div class="section-kicker">NLP · FEEDBACK MINING</div><h2>Customer sentiment</h2></div><span class="mini-icon">✳</span></div>
+                <p class="muted-intro" id="feedbackSubtitle">Feedback tone is analysed from the selected text field.</p>
+                <div id="sentimentChart" class="sentiment-chart"></div>
+                <div class="sentiment-summary" id="sentimentSummary"></div>
+              </article>
+              <article class="panel chart-panel">
+                <div class="panel-heading"><div><div class="section-kicker">NLP · TOPIC EXTRACTION</div><h2>What's showing up</h2></div><span class="mini-icon">⌕</span></div>
+                <p class="muted-intro">TF-IDF + Non-negative Matrix Factorization groups recurring terms into themes.</p>
+                <div id="topicList" class="topic-list"></div>
+              </article>
+            </section>
+
+            <section class="panel calibration-panel">
+              <div class="panel-heading"><div><div class="section-kicker">PROBABILITY QUALITY</div><h2>Calibration reliability</h2></div><span class="step-label">TEST CUSTOMERS</span></div>
+              <div class="calibration-layout"><div class="calibration-chart-wrap" id="calibrationChart"></div><div class="calibration-copy"><h3>Read the probability, not just the class.</h3><p>Each point compares a bucket's mean predicted churn probability with the observed churn rate in the holdout set. Points closer to the diagonal indicate better calibration.</p><div class="metric-explainer"><span>Brier score</span><b>Lower is better</b><p>Mean squared error of predicted probabilities against actual outcomes.</p></div><div class="metric-explainer"><span>Expected calibration error</span><b>Lower is better</b><p>Weighted gap between average probability and observed churn across bins.</p></div></div></div>
+            </section>
+
+            <section class="content-grid" id="retention">
+              <article class="panel actions-panel">
+                <div class="panel-heading"><div><div class="section-kicker">RETENTION OPERATIONS</div><h2>Recommended interventions</h2></div><span class="step-label">RANKED</span></div>
+                <p class="muted-intro">Rule-based action ranking combines customer risk with visible complaint and account signals. Scores are priority heuristics, not predicted causal lift.</p>
+                <div id="actionList" class="action-list"></div>
+              </article>
+              <article class="panel feature-panel">
+                <div class="panel-heading"><div><div class="section-kicker">ML · FEATURE SIGNALS</div><h2>What influences the model</h2></div><span class="mini-icon">↗</span></div>
+                <p class="muted-intro">Largest absolute logistic coefficients across calibration folds. They indicate model association, not causation.</p>
+                <div id="featureImportance" class="importance-list"></div>
+              </article>
+            </section>
+
+            <section class="content-grid" id="cohorts">
+              <article class="panel cohort-panel">
+                <div class="panel-heading"><div><div class="section-kicker">DATA SCIENCE · COHORTS</div><h2>Retention by cohort</h2></div><span class="mini-icon">◷</span></div>
+                <p class="muted-intro" id="cohortSource">Cohorts use signup month when available; otherwise tenure bands.</p>
+                <div class="table-wrap"><table class="data-table"><thead><tr><th>Cohort</th><th>Customers</th><th>Churn rate</th><th>Retention</th></tr></thead><tbody id="cohortBody"></tbody></table></div>
+                <div id="cohortEmpty" class="inline-empty hidden">Choose a join date or tenure column to unlock cohort analysis.</div>
+              </article>
+              <article class="panel segment-panel">
+                <div class="panel-heading"><div><div class="section-kicker">DATA SCIENCE · SEGMENTS</div><h2>Customer groups</h2></div><span class="mini-icon">◈</span></div>
+                <p class="muted-intro">KMeans groups customers using available numeric features; risk tiers are shown separately.</p>
+                <div id="segmentList" class="segment-list"></div>
+              </article>
+            </section>
+
+            <section class="panel customers-panel" id="customers">
+              <div class="customers-heading"><div><div class="section-kicker">CUSTOMER WORKLIST</div><h2>Prioritise the next conversation</h2><p class="muted-intro">Risk scores come from the final calibrated model fitted on all labelled history. Holdout metrics above are the separate estimate of unseen performance.</p></div><button class="btn btn-secondary" id="downloadButton" type="button" disabled>↓ Export predictions CSV</button></div>
+              <div class="table-toolbar"><label class="search-field"><span>⌕</span><input id="customerSearch" type="search" placeholder="Search customer, risk tier, topic or action…" aria-label="Search predictions"></label><div class="table-count" id="customerCount">0 customers</div></div>
+              <div class="table-wrap customer-table-wrap"><table class="data-table"><thead><tr><th>Customer</th><th>Actual label</th><th>Churn risk</th><th>Feedback</th><th>Topic</th><th>Recommended action</th></tr></thead><tbody id="customerTableBody"></tbody></table></div>
+              <div class="table-footer"><span id="tableFooterText">Results appear here after analysis.</span><button class="text-button hidden" id="loadMoreButton" type="button">Load more rows ↓</button></div>
+            </section>
+            <footer class="result-footnote" id="resultFootnote"></footer>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer"><span>RETAIN<span class="footer-period">.</span> CUSTOMER INTELLIGENCE</span><span>Built for exploration · Validate before business use</span><span class="footer-version">v1.0.0</span></footer>
+  </div>
+  <div id="loadingOverlay" class="loading-overlay hidden" role="status" aria-live="polite"><div class="loading-card"><span class="loader"></span><b id="loadingTitle">Analysing customer signals</b><span id="loadingText">Training and evaluating the churn model…</span><div class="loading-track"><span></span></div></div></div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
